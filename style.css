@@ -1,0 +1,45 @@
+html,
+body {
+    height: 100%;
+}
+.navbar{
+        font-size: 25px;
+         font-family: sans-serif;
+          background-color: skyblue;
+}
+.text_box {
+    padding: 30px;
+    width: 50%;
+    height: 100%;
+    border: 1px solid lightgray;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    overflow-y: scroll
+}
+#treearea{
+        width: 100%;
+         text-align: center;
+          font-size: medium;
+}
+#temptext{
+        width: 100%; 
+        text-align: center;
+         font-size: x-large;
+}
+
+#container{
+    width: 100%;
+    height: 70%;
+    background-color: white;
+    display: flex;
+    margin: 0 auto;
+}
+#former{
+        display: inline-block;
+}
+
+.center_buttons{
+    margin:auto;
+    display:block;
+}

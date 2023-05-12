@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="heap.js"></script>
+    <script src="huffman.js" type="module"></script>
+    <script src="script.js" type="module"></script>
+</head>
+
+<body>
+    <nav class="navbar ">
+
+        <img src="https://codingblocks.com/assets/images/cb/cblogo.png" width="124" height="45"
+            class="d-inline-block align-top" alt="not upload">
+        Huffman Encode decode
+    </nav>
+    <div id="container">
+        <div class="text_box" >
+            <span id="treearea">
+                Tree Structure Will Be Displayed Here !!
+            </span>
+        </div>
+        <div class="text_box" >
+            <span id="temptext" >
+                Operation info will be shown here !!
+            </span>
+        </div>
+    </div>
+
+    <div>
+        <form    id =" former"method="post" enctype="multipart/form-data" >
+            <input id="uploadedFile"  placeholder="nnm" type="file" />
+        </form>
+        <br>
+        <button type="button" class="btn btn-success center_buttons" id="encode">&nbsp;&nbsp;Encode&nbsp;&nbsp;</button>
+        <br>
+        <button type="button" class="btn btn-danger center_buttons" id="decode">&nbsp;&nbsp;Decode&nbsp;&nbsp;</button>
+    </div>
+</body>
+
+</html>
